@@ -29,3 +29,5 @@ and then entering your password is all that is required.
 In the root directory of the project, run:
 
     grunt
+
+*Note* This task will run continuously and refresh as you save the files you're working with (tests or implementation);
