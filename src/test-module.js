@@ -5,6 +5,11 @@ var TestModule = {
 
     enforceUniqueValues: function(list) {
         // implement
+        // don't forget to sort your output
+    },
+
+    areStringsAnagrams: function(str1, str2) {
+
     }
 };
 

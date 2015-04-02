@@ -27,3 +27,18 @@ describe('#enforceUniqueValues', function() {
         .to.eql(['couches', 'pets', 'rope', 'shoes', 'watches'])
     });
 });
+
+describe('#areStringsAnagrams', function() {
+    it('should return true if strings are anagrams', function() {
+        // set up
+        var str1 = 'the quick brown fox';
+        var str2 = 'quick fox brown the';
+
+        // run unit
+        var result = TestModule.areStringsAnagrams(str1, str2);
+
+        // verify expectations
+        expect(result)
+        .to.be.true;
+    });
+});
