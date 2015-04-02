@@ -13,9 +13,11 @@ You will be cloning a GitHub repository and running a Grunt task to test code as
 
 ### Install the dependencies
 In the root directory of the project you've just cloned, run:
+
     npm install
 
 Depending on your node install, you may have to have administrative/root permissions to run this command. Sometimes running.
+
     sudo npm install
 
 and then entering your password is all that is required.
@@ -25,4 +27,5 @@ and then entering your password is all that is required.
 
 ### Run the Grunt task
 In the root directory of the project, run:
+
     grunt
