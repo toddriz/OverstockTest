@@ -42,3 +42,29 @@ describe('#areStringsAnagrams', function() {
         .to.be.true;
     });
 });
+
+describe('#emailContainsLettersAndNumbers', function() {
+    it('should return true if string has letters and numbers', function() {
+        // set up
+        var address = 'creole333@aol.com';
+
+        // run unit
+        var result = TestModule.emailContainsLettersAndNumbers(address);
+
+        // verify expectations
+        expect(result)
+        .to.be.true;
+    });
+
+    it('should return false if string has letters and numbers', function() {
+        // set up
+        var address = 'biff@aol.com';
+
+        // run unit
+        var result = TestModule.emailContainsLettersAndNumbers(address);
+
+        // verify expectations
+        expect(result)
+        .to.be.false;
+    });
+});
