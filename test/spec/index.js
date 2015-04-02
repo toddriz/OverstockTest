@@ -1,3 +1,3 @@
 describe('Overstock Test Suite', function() {
-    require('./reverse-string-test.js');
+    require('./test-module-test');
 });
