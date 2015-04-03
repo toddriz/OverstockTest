@@ -1,4 +1,6 @@
-TestModule = require('../../src/test-module');
+'use strict';
+
+var TestModule = require('../../src/test-module');
 
 describe('#reverse', function() {
     it('It should take a string and return the reverse', function() {

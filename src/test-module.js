@@ -1,3 +1,5 @@
+'use strict';
+
 var TestModule = {
     reverse: function(args) {
         // implement
