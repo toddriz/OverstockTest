@@ -2,11 +2,11 @@
 
 ## Instructions
 
-This assessment consists of two parts. One is writing a correct Javascript implementation for a small function. A tests for this implementation are provided. Once the implementation has been written correctly, all tests will pass.
+This assessment consists of two parts. The first part is writing a correct Javascript implementation for a small function. Unit test(s) for this implementation are provided. Once the implementation has been written correctly, all tests will pass.
 
 The second part consists of writing proper tests for an existing implementation. All aspects of the method need to be tested.
 
-You will be cloning a GitHub repository and running a Grunt task to test code as you write it. Having Node.js installed is required to run the tests.
+You will be cloning a GitHub repository and running a Grunt task to test code as you write it. Having Node.js installed is required to run the tests. (Directions on how to install Node.js for various systems are available in the Resources section of this readme)
 
 When you are finished, commit your changes and push them to your own GitHub account\*. Please reply to the email that sent you this link, with a short message letting us know that you've finished.
 
