@@ -43,6 +43,9 @@ Do not hesitate to ask any questions if you need clarification on any of the pro
 
 #### Resources:
 <http://chaijs.com/api/bdd/> - For help writing test assertions
+
 <http://nodejs.org> - For help setting up node.js
+
 <http://mochajs.org> - for help with Mocha.js
+
 <http://gruntjs.com/> - for help with Grunt
