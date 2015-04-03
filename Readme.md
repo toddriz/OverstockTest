@@ -6,6 +6,13 @@ This assessment consists of two parts. The first part is writing correct Javascr
 
 The second part consists of writing proper unit tests for existing implementations. All aspects of the method need to be tested.
 
+Feel free to poke around, but the files you'll be editing are:
+
+* src/test-module.js
+* test/spec/test-module-test.js
+* src/implementation-module.js
+* test/spec/implementation-module-test.js
+
 You will be cloning a GitHub repository and running a Grunt task to test code as you write it. Having Node.js installed is required to run the tests. (Directions on how to install Node.js for various systems are available in the Resources section of this readme)
 
 When you are finished, commit your changes and push them to your own GitHub account\*. Please reply to the email that sent you this link, with a short message letting us know that you've finished.
