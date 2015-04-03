@@ -13,6 +13,8 @@ var ImplementationModule = {
         if (Object.prototype.toString.call(y) === '[object Array]') {
             return x.concat(y);
         }
+
+        return false;
     }
 }
 
