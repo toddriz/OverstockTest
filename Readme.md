@@ -20,7 +20,7 @@ When you are finished, commit your changes and push them to your own GitHub acco
 \*If you do not have a GitHub, Bitbucket or similar public source code repository, you may delete the node\_modules directory, and zip the entire project folder up and send it via email.
 
 ### Clone the repository
-    git clone https://github.com/overstock/oco-candidate.git
+    git clone https://github.com/overstock/oco-assessment.git
 
 ### Install the dependencies
 In the root directory of the project you've just cloned, run:
