@@ -37,11 +37,11 @@ and then entering your password is all that is required.
     npm install grunt -g
 
 ### Run the Grunt task
+Grunt is a task running utility. We've set up a minimal task to watch the /src and /test/spec directories. It will re-run the tests whenever you save a file (either tests or implementations). You will need to keep a terminal open and the grunt task running to receive continuous feedback.
+
 In the root directory of the project, run:
 
     grunt
-
-**Note:** This task will run continuously and refresh as you save the files you're working with (tests or implementation);
 
 #### Rules:
 This excercise should not take longer than an hour. If you find an excercise difficult, skip it and come back to it after completing the others. You may use any resource you have available (Google, StackExchange, Phone a friend...) but you must complete the work yourself.
