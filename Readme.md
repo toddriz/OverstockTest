@@ -34,7 +34,9 @@ Depending on your node install, you may have to have administrative/root permiss
 and then entering your password is all that is required.
 
 ### Install a system-wide Grunt command
-    npm install grunt -g
+    npm install grunt-cli -g
+
+**Note:** Again, depending on your setup, `sudo` may be required to run `npm install`.
 
 ### Run the Grunt task
 Grunt is a task running utility. We've set up a minimal task to watch the /src and /test/spec directories. It will re-run the tests whenever you save a file (either tests or implementations). You will need to keep a terminal open and the grunt task running to receive continuous feedback.
