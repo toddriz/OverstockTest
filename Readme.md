@@ -1,4 +1,4 @@
-# Overstock Candidate Assessment
+# Overstock Mobile Front End Dev. Candidate Assessment
 
 ## Instructions
 
