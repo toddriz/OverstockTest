@@ -3,7 +3,7 @@
 var TestModule = require('../../src/test-module');
 
 describe('#reverse', function() {
-    it('It should take a string and return the reverse', function() {
+    it('It should take a string and return the words in reverse', function() {
         // set up
         var str = 'life is so much better in reverse';
 
