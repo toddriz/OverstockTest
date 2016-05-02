@@ -10,6 +10,10 @@ var TestModule = {
         // don't forget to sort your output!
     },
 
+    flatten: function(list) {
+        // implement
+    },
+
     areStringsAnagrams: function(str1, str2) {
         // implement
     },

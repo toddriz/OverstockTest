@@ -30,6 +30,20 @@ describe('#enforceUniqueValues', function() {
     });
 });
 
+describe('#flatten', function() {
+    it('should flatten multi-dimensional arrays', function() {
+        // set up
+        var multi = [1, 2, [3, 4], 5, [6, 7, [8, 9], 10]];
+
+        // run unit
+        var result = TestModule.flatten(multi);
+
+        // verify expectations
+        expect(result)
+        .to.eql([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+    });
+});
+
 describe('#areStringsAnagrams', function() {
     it('should return true if strings are anagrams', function() {
         // set up
